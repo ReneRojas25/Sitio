@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejemplo de JavaScript</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<script>
+function calcularCubo()
+{
+var v=document.getElementById('num').value;
+v=parseInt(v);
+var cubo=v*v*v;
+alert(cubo);
+}
+</script>
+<form>
+Ingrese un valor:
+<input type="text" id="num">
+<br>
+<input type="button" value="Calcular cubo"
+onClick="calcularCubo()">
+</form>
+<a href="sub3.html">Regresar</a>
+</body>
+</html>
